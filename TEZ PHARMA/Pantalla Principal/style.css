@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background: linear-gradient(#593A2E, #A6886D, #593A2E, #26150F)
+}
+.LOGO h1{
+    font-size: 950%;
+    font-style: italic;
+    width: 60%;
+    padding: 10%;
+    margin: 5% 5% 5% 10%; 
+    background-color: #BFBFBF;
+    border: solid  #102226;
+    border-radius: 50px;
+    text-align: center;
+    border-width: 10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(./image/anuncio\ 2\ cuidado\ de\ piel.jpg);
+    background-attachment: fixed;
+}
+.nav{
+    display: flex ;    
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    position: absolute;
+    background-color: #102226;
+    padding: 2%;
+}
+.nave{
+    background-color: #64758C;
+    margin: 2px;
+    padding: 10px;
+    width: 40%;
+    text-decoration: none;
+    border-radius: 100px;
+}
+.nave1{
+    background-color: #64758C;
+    margin: 2px;
+    padding: 10px;
+    width: 40%;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.option{
+    display: flex;
+    background-color: #102226;
+    justify-content:space-around;
+    border-radius: 10px;
+    flex-direction: column;
+    margin: 0 20%;
+    height: 300px;
+}
+.con{
+    text-decoration: none; 
+    display: flexbox;
+    -ms-flex-align: end;
+    justify-content: flex-end;
+    background-color: #D9A384;
+    padding: 3%;
+    border-radius: 100px ;
+    width: 80%;
+    margin: auto;
+
+    font-weight: bold;
+    font-size: 17px;
+    text-align: end;
+    color: #102226;
+    padding-top: 3%;
+
+
+
+}
